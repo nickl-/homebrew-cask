@@ -1,8 +1,8 @@
 cask :v1 => 'gpgtools' do
-  version '2013.10.22'
-  sha256 'd37ccf01e5ddd07dd84b76574e99b605ca9ead89cb0c6c126f4045e271eb3841'
+  version '2015.02-b5-1161'
+  sha256 '06fb88a45e8c35c3bb4ce638d45c3bc42d1b8cb84c865106a0eb918fa3fd71f4'
 
-  url "https://releases.gpgtools.org/GPG%20Suite%20-%20#{version}.dmg"
+  url "https://releases.gpgtools.org/GPG_Suite-#{version}.dmg"
   gpg "#{url}.sig",
       :key_url => 'https://gpgtools.org/GPGTools%2000D026C4.asc'
   homepage 'https://gpgtools.org/'

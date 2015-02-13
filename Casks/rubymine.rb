@@ -1,11 +1,11 @@
 cask :v1 => 'rubymine' do
-  version '7.0.2'
-  sha256 '70f891b21cd99573c83d5242d46bc70fb241987d2b06d5a19a19f2ac62499bab'
+  version '7.0.4'
+  sha256 'a2340eec7652fefb1d6fc7eacd7338d04aac1106eff40d18ad4fe6d379f3c53a'
 
   url "http://download-cf.jetbrains.com/ruby/RubyMine-#{version}.dmg"
   name 'RubyMine'
   homepage 'http://www.jetbrains.com/ruby/'
-  license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :commercial
 
   app 'RubyMine.app'
 
